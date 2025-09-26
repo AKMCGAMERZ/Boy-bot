@@ -1,0 +1,7 @@
+discord.py
+python-dotenv
+docker
+aiohttp
+psutil
+flask
+paramiko

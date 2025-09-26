@@ -1,0 +1,12 @@
+[Unit]
+Description=Unixnodes Discord Bot
+After=network.target
+
+[Service]
+User=unixnodes
+WorkingDirectory=/opt/unixnodes-bot
+ExecStart=/usr/bin/python3 /opt/unixnodes-bot/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
