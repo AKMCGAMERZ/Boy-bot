@@ -5,3 +5,4 @@ aiohttp
 psutil
 flask
 paramiko
+flask_socketio
